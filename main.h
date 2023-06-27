@@ -16,7 +16,7 @@ void _print_string(const char *str);
  * struct flags - struct containing flags
  * @plus: flag for the '+' character
  * @space: flag for the ' ' character
- * @hash: flag for the '#' characters
+ * @hash: flag for the '#' character
  */
 typedef struct flags
 {
