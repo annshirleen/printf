@@ -1,5 +1,9 @@
 #include "main.h"
 
+/**
+ * _print_string - Print String
+ * @str: String
+ */
 void _print_string(const char *str)
 {
 	char buffer[BUFFER_SIZE];
