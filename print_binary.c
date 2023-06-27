@@ -1,5 +1,8 @@
 #include "main.h"
-
+/**
+ * _print_binary - Print Binary
+ * @num: Number
+ */
 void _print_binary(unsigned int num)
 {
 	int bits[sizeof(unsigned int) * 8];
