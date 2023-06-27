@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * _printf -
+ * _printf - printf
+ * @format:format
+ * Return:integer
  */
-
 int _printf(const char *format, ...)
 {
 	flags_t flags = {0, 0, 0};
