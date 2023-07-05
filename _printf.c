@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _printf - printf
+ * _printf - function that prints in any format
  * @format:format
  * Return:integer
  */
