@@ -8,20 +8,17 @@
 #include <unistd.h>
 #include <limits.h>
 
-#define BUFFER_SIZE 1024
 /**
- * struct flags - struct containing flags
- * @plus: flag for the '+' character
- * @space: flag for the ' ' character
- * @hash: flag for the '#' character
- */
+  * struct format - to match the conversion specifiers
+  * @id: specifier to be converted
+  * @f: function for the specifier
+  */
 
-typedef struct flags
+typedef struct format
 {
-	int plus;
-	int space;
-	int hash;
-} flags_t;
+	char *id;
+	int (*f)();
+} match_convert;
 
 int _putchar(char c);
 int _printf(const char *format, ...);
